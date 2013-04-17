@@ -56,29 +56,29 @@ PRODUCT_COPY_FILES += \
 
 
 # OMX
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-    vendor/motorola/triumph/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/motorola/triumph/proprietary/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
-    vendor/motorola/triumph/proprietary/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
-    vendor/motorola/triumph/proprietary/lib/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \
-    vendor/motorola/triumph/proprietary/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
-    vendor/motorola/triumph/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
-    vendor/motorola/triumph/proprietary/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
-    vendor/motorola/triumph/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
-    vendor/motorola/triumph/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so
+#PRODUCT_COPY_FILES += \
+#    vendor/motorola/triumph/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+#    vendor/motorola/triumph/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+#    vendor/motorola/triumph/proprietary/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
+#    vendor/motorola/triumph/proprietary/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
+#    vendor/motorola/triumph/proprietary/lib/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \
+#    vendor/motorola/triumph/proprietary/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
+#    vendor/motorola/triumph/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
+#    vendor/motorola/triumph/proprietary/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
+#    vendor/motorola/triumph/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
+#    vendor/motorola/triumph/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so
 
 # RIL
 PRODUCT_COPY_FILES += \
@@ -144,19 +144,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=/system/lib/libqc-opt.so
 
 # Prebuilt shared libraries
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:obj/lib/libv8.so
+#PRODUCT_COPY_FILES += \
+#    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:obj/lib/libv8.so
 
 # Prebuilt CodeAurora libraries
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:system/lib/libv8.so \
-    vendor/motorola/triumph/proprietary/lib/caf/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/motorola/triumph/proprietary/lib/caf/libmmosal.so:system/lib/libmmosal.so \
-    vendor/motorola/triumph/proprietary/lib/caf/libmmparser.so:system/lib/libmmparser.so \
-    vendor/motorola/triumph/proprietary/lib/caf/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-    vendor/motorola/triumph/proprietary/lib/caf/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/motorola/triumph/proprietary/lib/caf/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/motorola/triumph/proprietary/lib/caf/libqc-opt.so:system/lib/libqc-opt.so
+#PRODUCT_COPY_FILES += \
+#    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:system/lib/libv8.so \
+#    vendor/motorola/triumph/proprietary/lib/caf/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+ #   vendor/motorola/triumph/proprietary/lib/caf/libmmosal.so:system/lib/libmmosal.so \
+ #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser.so:system/lib/libmmparser.so \
+ #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+ #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+ #   vendor/motorola/triumph/proprietary/lib/caf/libDivxDrm.so:system/lib/libDivxDrm.so \
+  #  vendor/motorola/triumph/proprietary/lib/caf/libqc-opt.so:system/lib/libqc-opt.so
 
 # Prebuilt libraries for CAF Chromium plug-ins
 PRODUCT_COPY_FILES += \
@@ -257,13 +257,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/lib/modules/libra.ko:/system/lib/modules/libra.ko \
     vendor/motorola/triumph/proprietary/lib/modules/libra_ftm.ko:/system/lib/modules/libra_ftm.ko \
-    vendor/motorola/triumph/proprietary/lib/modules/cifs.ko:/system/lib/modules/cifs.ko \
-    vendor/motorola/triumph/proprietary/lib/modules/tun.ko:/system/lib/modules/tun.ko \
     vendor/motorola/triumph/proprietary/etc/firmware/wlan/qcom_fw.bin:/system/etc/firmware/wlan/qcom_fw.bin \
     vendor/motorola/triumph/proprietary/etc/firmware/wlan/qcom_wapi_fw.bin:/system/etc/firmware/wlan/qcom_wapi_fw.bin \
     vendor/motorola/triumph/proprietary/etc/firmware/wlan/qcom_wlan_nv.bin:/system/etc/firmware/wlan/qcom_wlan_nv.bin \
     vendor/motorola/triumph/proprietary/etc/firmware/wlan/cfg.dat:/system/etc/firmware/wlan/cfg.dat \
     vendor/motorola/triumph/proprietary/etc/firmware/wlan/hostapd_default.conf:/system/etc/firmware/wlan/hostapd_default.conf \
     vendor/motorola/triumph/proprietary/etc/firmware/wlan/qcom_cfg.ini:/system/etc/firmware/wlan/qcom_cfg.ini \
-    vendor/motorola/triumph/proprietary/etc/firmware/wlan/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf
+    vendor/motorola/triumph/proprietary/etc/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
+    vendor/motorola/triumph/proprietary/etc/wifi/cert_chmod.sh:/system/etc/wifi/cert_chmod.sh
 
