@@ -94,6 +94,12 @@ key 57    SPACE
 key 150   EXPLORER
 key 155   ENVELOPE        
 key 237    SILENTON
+key 248   SILENTOFF
+
 key 12    MINUS
 key 13    EQUALS
 key 215   AT
+
+# On an AT keyboard: ESC, F10
+key 1     BACK              WAKE_DROPPED
+key 68    MENU              WAKE_DROPPED

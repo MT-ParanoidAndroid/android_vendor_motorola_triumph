@@ -82,10 +82,8 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/triumph/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/triumph/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-    vendor/motorola/triumph/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/motorola/triumph/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/motorola/triumph/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/triumph/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
@@ -125,6 +123,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/triumph/proprietary/lib/hw/sensors.qcom.so:/system/lib/hw/sensors.triumph.so
 
+# HW Triumph libs
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/lib/hw/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
+    vendor/motorola/triumph/proprietary/lib/hw/lights.triumph.so:system/lib/hw/lights.triumph.so
+
 # Copyright (C) 2012 Qualcomm Developer Network
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -144,19 +147,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=/system/lib/libqc-opt.so
 
 # Prebuilt shared libraries
-#PRODUCT_COPY_FILES += \
-#    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:obj/lib/libv8.so
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:obj/lib/libv8.so
 
 # Prebuilt CodeAurora libraries
-#PRODUCT_COPY_FILES += \
-#    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:system/lib/libv8.so \
-#    vendor/motorola/triumph/proprietary/lib/caf/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmosal.so:system/lib/libmmosal.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser.so:system/lib/libmmparser.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser_lite.so:system/lib/libmmparser_lite.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libDivxDrm.so:system/lib/libDivxDrm.so \
-  #  vendor/motorola/triumph/proprietary/lib/caf/libqc-opt.so:system/lib/libqc-opt.so
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmparser.so:system/lib/libmmparser.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:system/lib/libv8.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmosal.so:system/lib/libmmosal.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libqc-opt.so:system/lib/libqc-opt.so
 
 # Prebuilt libraries for CAF Chromium plug-ins
 PRODUCT_COPY_FILES += \
@@ -181,17 +184,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
     vendor/motorola/triumph/proprietary/etc/firmware/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
     vendor/motorola/triumph/proprietary/etc/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
-    vendor/motorola/triumph/proprietary/lib/egl/egl.cfg:/system/lib/egl/egl.cfg \
-    vendor/motorola/triumph/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    vendor/motorola/triumph/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/motorola/triumph/proprietary/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
-    vendor/motorola/triumph/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/motorola/triumph/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/motorola/triumph/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/motorola/triumph/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/motorola/triumph/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
-    vendor/motorola/triumph/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    vendor/motorola/triumph/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so
+    vendor/motorola/triumph/proprietary/lib/egl/egl/egl.cfg:/system/lib/egl/egl.cfg \
+    vendor/motorola/triumph/proprietary/lib/egl/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+    vendor/motorola/triumph/proprietary/lib/egl/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/motorola/triumph/proprietary/lib/egl/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
+    vendor/motorola/triumph/proprietary/lib/egl/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/motorola/triumph/proprietary/lib/egl/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/motorola/triumph/proprietary/lib/egl/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+    vendor/motorola/triumph/proprietary/lib/egl/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/motorola/triumph/proprietary/lib/egl/libgsl.so:/system/lib/libgsl.so \
+    vendor/motorola/triumph/proprietary/lib/egl/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/motorola/triumph/proprietary/lib/egl/libsc-a2xx.so:/system/lib/libsc-a2xx.so
 
 # Gsensor & Ecompass
 PRODUCT_COPY_FILES += \
@@ -251,7 +254,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/etc/SuplRootCert:/system/etc/SuplRootCert \
     vendor/motorola/triumph/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/motorola/triumph/proprietary/usr/idc/bi041p.idc:/system/usr/idc/bi041p.idc \
-    vendor/motorola/triumph/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml
+    vendor/motorola/triumph/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
+    vendor/motorola/triumph/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/motorola/triumph/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml
 
 # Wifi/Modules
 PRODUCT_COPY_FILES += \
