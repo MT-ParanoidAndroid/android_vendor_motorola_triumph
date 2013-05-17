@@ -1,0 +1,156 @@
+/system/bin/linker
+__dso_handle
+__INIT_ARRAY__
+__FINI_ARRAY__
+__aeabi_unwind_cpp_pr0
+strcmp
+snprintf
+__errno
+strerror
+strlen
+write
+__stack_chk_fail
+__stack_chk_guard
+__aeabi_unwind_cpp_pr1
+strncmp
+__android_log_print
+open
+ioctl
+close
+strcpy
+memcpy
+__exidx_start
+__exidx_end
+__data_start
+_edata
+__bss_start
+__bss_start__
+_bss_end__
+__bss_end__
+__end__
+_end
+_stack
+memset
+__aeabi_uidiv
+read
+socket
+setsockopt
+bind
+listen
+property_set
+strncpy
+accept
+select
+strlcpy
+getpid
+_Znaj
+_ZdlPv
+_ZdaPv
+_Znwj
+sprintf
+__cxa_pure_virtual
+_ZNK7android7RefBase9incStrongEPKv
+_ZNK7android7RefBase9decStrongEPKv
+_ZN7android7RefBaseD2Ev
+_ZN7android7RefBaseC2Ev
+atoi
+getenv
+_ZN7android7RefBase10onFirstRefEv
+_ZN7android7RefBase15onLastStrongRefEPKv
+_ZN7android7RefBase20onIncStrongAttemptedEjPKv
+_ZN7android7RefBase13onLastWeakRefEPKv
+_ZN7android6Thread10readyToRunEv
+_ZN7android6Thread11requestExitEv
+_ZN7android6ThreadD1Ev
+_ZN7android6ThreadD0Ev
+_ZN7android6ThreadD2Ev
+_ZN7android6ThreadC2Eb
+setpriority
+sscanf
+_ZN7android6Thread3runEPKcij
+_ZTv0_n12_N7android6ThreadD0Ev
+_ZTv0_n12_N7android6ThreadD1Ev
+sleep
+_ZN7android14IPCThreadState4selfEv
+_ZTVN7android7IBinder14DeathRecipientE
+_ZTv0_n12_N7android7IBinder14DeathRecipientD0Ev
+_ZTv0_n12_N7android7IBinder14DeathRecipientD1Ev
+_ZTTN7android7IBinder14DeathRecipientE
+_ZN7android12ProcessState4selfEv
+_ZN7android14IPCThreadState14joinThreadPoolEb
+_ZN7android12ProcessState15startThreadPoolEv
+_ZN7android21SurfaceComposerClientC1Ev
+usleep
+_ZN7android21SurfaceComposerClient16enableHDMIOutputEi
+strtol
+__libc_init
+recv
+strcasestr
+liblog.so
+libcutils.so
+libutils.so
+libbinder.so
+libsurfaceflinger_client.so
+libui.so
+libc.so
+libstdc++.so
+libm.so
+
+
+
+void android::HDMIDaemon::saveResolution(int)
+bool android::HDMIDaemon::readResolution()
+bool android::HDMIDaemon::processUeventMessage(android::uevent&)
+ANDROID_SOCKET_
+HDMIDaemon
+/dev/graphics/fb1
+ERROR: /dev/graphics/fb1 not available
+cableConnected: state file '%s' not found
+cableConnected: empty state file '%s'
+cableConnected: %s indicates CONNECTED
+cableConnected: %s indicates DISCONNECTED
+%s: edid_modes file '%s' not found
+hw.hdmiON
+GET Info<ID=%d %dx%d (%d,%d,%d), (%d,%d,%d) %dMHz>
+SET Info<ID=%d => Info<ID=%d %dx%d (%d,%d,%d), (%d,%d,%d) %dMHz>
+%s: edid_modes file empty '%s'
+%s: edid_modes file empty buf== '%s' mode== '%d'
+%s: %d
+hdmi_connected
+hdmi_disconnected
+failed
+successful
+sendCommandToFramework:'%s' %s
+Unable to read framework command (%s)
+enable_hdmi
+disable_hdmi
+change_mode: %d
+change_mode: 
+Setting Mode to =  %d
+processUeventQueue: event.action == offline
+processUeventQueue: event.action == online
+Error receiving uevent (%s)
+hdmi_kobj
+ACTION=
+change
+remove
+online
+offline
+%s: action (%s) unknown
+SEQNUM=
+SUBSYSTEM=
+processUevent: event.action == offline
+processUevent: event.action == online
+select() failed (%s)
+Unable to accept framework connection (%s)
+threadLoop: driver not online; use state-file
+threadLoop: Accepted connection from framework
+/sys/kernel/hdmi_kset/hdmi_kobj/hdmi_state_obj
+/proc/edid_modes
+hdmid
+Obtaining file descriptor socket '%s' failed: %s
+Unable to listen on fd '%d' for socket '%s': %s
+Unable to create uevent socket: %s
+Unable to set uevent socket options: %s
+Unable to bind uevent socket: %s
+readyToRun: success

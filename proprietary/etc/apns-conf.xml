@@ -192,7 +192,7 @@
          mmsproxy="010.012.000.020"
          mmsport="80"
          mmsc="http://mmsc.t-mobile.at/servlets/mms"
-         type="default,supl"
+         type="supl"
     />
 
     <apn carrier="T-Mobile A MMS"
@@ -218,7 +218,7 @@
          mmsproxy="010.000.000.010"
          mmsport="80"
          mmsc="http://mms"
-         type="default,supl"
+         type="supl"
     />
 
     <apn carrier="T-Mobile CZ MMS"
@@ -244,7 +244,7 @@
          mmsproxy="010.010.010.011"
          mmsport="8080"
          mmsc="http://t-mobilemms"
-         type="default,supl"
+         type="supl"
     />
 
     <apn carrier="T-Mobile NL MMS"

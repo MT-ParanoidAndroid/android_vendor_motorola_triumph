@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/motorola/triumph/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/motorola/triumph/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/motorola/triumph/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/motorola/triumph/proprietary/lib/libmmipl.so:system/lib/libmmipl.so
 
 # GPS files from Cherry 2.3.5
@@ -144,19 +145,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=/system/lib/libqc-opt.so
 
 # Prebuilt shared libraries
-#PRODUCT_COPY_FILES += \
-#    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:obj/lib/libv8.so
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:obj/lib/libv8.so
 
 # Prebuilt CodeAurora libraries
-#PRODUCT_COPY_FILES += \
-#    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:system/lib/libv8.so \
-#    vendor/motorola/triumph/proprietary/lib/caf/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmosal.so:system/lib/libmmosal.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser.so:system/lib/libmmparser.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser_lite.so:system/lib/libmmparser_lite.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
- #   vendor/motorola/triumph/proprietary/lib/caf/libDivxDrm.so:system/lib/libDivxDrm.so \
-  #  vendor/motorola/triumph/proprietary/lib/caf/libqc-opt.so:system/lib/libqc-opt.so
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/lib/caf/libv8.so:system/lib/libv8.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmosal.so:system/lib/libmmosal.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmparser.so:system/lib/libmmparser.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/motorola/triumph/proprietary/lib/caf/libqc-opt.so:system/lib/libqc-opt.so
 
 # Prebuilt libraries for CAF Chromium plug-ins
 PRODUCT_COPY_FILES += \
